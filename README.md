@@ -6,3 +6,8 @@ O **Notification Generator** é uma ferramenta que automatiza a criação de sis
 
 - **Linguagem principal:** Node.js  
 - **Por que da escolha:** Excelente para aplicações em tempo real, push notifications, WebSockets e escalável para múltiplos canais de envio de mensagens.
+
+## Arquitetura
+
+- **Arquitetura recomendada:** Event-Driven / Microservices  
+- **Por que da escolha:** Notificações em tempo real e múltiplos canais funcionam melhor com eventos assíncronos e serviços escaláveis independentemente.
